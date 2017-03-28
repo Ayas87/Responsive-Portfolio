@@ -1,0 +1,385 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url('../images/container-background.png');
+    margin: 0px;
+    height: 100%;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    padding: 0px;
+    position: relative;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: white;
+    /*	margin: auto;*/
+    width: 100%;
+    /*	min-width: 1010px;*/
+    margin-bottom: 20px;
+}
+
+#border-sides {
+    border-right: 2px solid lightgrey;
+    border-left: 2px solid lightgrey;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.border-bottom {
+    border-bottom: 4px solid lightgrey;
+}
+
+.border-top {
+    border-top: 2px solid lightgrey;
+    width: auto;
+}
+
+.heading {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/*headername + navbar*/
+
+.container {
+    width: 960px;
+    display: inline-block;
+    position: relative;
+}
+
+.header-name {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border-color: #cccccc;
+    width: auto;
+    display: inline-block;
+    padding: 19px;
+    margin-left: 50px;
+    font-size: 2em;
+}
+
+
+/*navbar*/
+
+.nav {
+    float: right;
+    padding: 25px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav ul li {
+    display: inline-block;
+}
+
+.nav ul li a {
+    color: #777777;
+    text-decoration: none;
+}
+
+
+/*main body + sidebar*/
+
+.content {
+    color: #777777;
+    /*	padding: 20px 0px 0px 50px;*/
+    width: 960px;
+    display: inline-block;
+    /*	height: 100%;
+*/
+    margin-left: 50px;
+}
+
+
+/*main content*/
+
+.main {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    width: 650px;
+    height: auto;
+    margin: 0px 40px 20px 0px;
+    padding: 20px;
+    display: inline-block;
+    background-color: white;
+    float: left;
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+}
+
+.main-logo {
+    color: #4aaaa5;
+    font-size: 2em;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.main-img {
+    max-width: 20%;
+    max-height: 20%;
+    display: inline-block;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.about-me-paragraphs {
+    display: inline;
+}
+
+
+/*sidebar*/
+
+.sidebar {
+    width: 270px;
+    /*	margin-right: 20px;*/
+    float: left;
+    background-color: white;
+    display: inline-block;
+}
+
+.connect {
+    color: #4aaaa5;
+    text-align: center;
+    padding: 20px 20px 10px 20px;
+    width: auto;
+    /*	display: inline-block; ... default is display: block; which centers the box*/
+}
+
+.sidebar-icons {
+    padding: 10px 10px 20px 10px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+.sidebar-icons ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
+}
+
+.sidebar-icons a img {
+    max-width: 55px;
+    max-height: auto;
+}
+
+
+/*footer*/
+
+.footer {
+    background-color: #666666;
+    position: absolute;
+    width: 100%;
+    /*	min-width: 1010px;*/
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+    padding: 15px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    /*	min-width: 980px;*/
+    clear: both;
+    display: block;
+}
+
+
+/*about me*/
+
+
+/*contact.html*/
+
+.contact-form input {
+    width: 100%;
+    margin: 10px -10px 10px 0px;
+    padding: 3px;
+}
+
+.contact-form textarea {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 3px;
+    resize: vertical;
+    max-height: 500px;
+}
+
+.btn {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    display: inline-block;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1em;
+    margin: 0px;
+}
+
+
+/*portfolio*/
+
+.portfolio-icons-imgs img {
+    width: 100%
+}
+
+.portfolio-icons-imgs {
+    position: relative;
+    display: inline-block;
+    max-width: 49%;
+}
+
+.portfolio-icons-txt {
+    text-align: center;
+    float: left;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border-color: #cccccc;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
+/*Media Queries*/
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}*/
+
+@media only screen and (max-width: 980px) {
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+    .header {
+        width: 100%;
+    }
+    .header-name {
+        margin-left: 5%;
+    }
+    .content {
+        height: auto;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 60px;
+    }
+    .main {
+        width: 48%;
+        margin-left: 5%;
+        margin-right: 2.5%;
+        height: default;
+    }
+    .nav {
+        margin-right: 5%;
+    }
+    .sidebar {
+        width: auto;
+        margin-left: 2.5%;
+        float: right;
+        margin-right: 5%;
+    }
+    .footer{
+    	position: fixed;
+    }
+
+    .main-img {
+        max-width: 100%;
+        max-height: auto;
+    }
+    .portfolio-icons-imgs {
+    	max-width: 100%;
+    }
+    textarea {
+    	min-height: 10em;
+    	height: auto;
+    	max-height: auto;
+    }
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media only screen and (max-width: 768px) {
+    .main {
+    	width: 90%;
+    }
+    .main-img {
+    	max-width: 20%;
+    }
+    .sidebar {
+    	width: 90%;
+    }
+    .connect {
+    	text-align: left;
+    	margin-left: 5%;
+    }
+    .sidebar-icons {
+    	width: 90%;
+    }
+    .portfolio-icons-imgs {
+    	max-width: 49%;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .header {
+        position: static;
+    }
+    .header-name {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .nav {
+    	width: 100%;
+    	float: none;
+    }
+    .nav ul li {
+    	width: 30%;
+    	text-align: center;
+    }
+    .main-img {
+        max-width: 100%;
+    }
+    .portfolio-icons-imgs {
+    	max-width: 100%;
+    }
+}
